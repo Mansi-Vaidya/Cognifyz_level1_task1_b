@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    <div class="base">
+        <form>
+            <div class="row">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name"><i class="ri-user-fill"></i> Your Name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="number" required>
+                    <label for="number"><i class="ri-phone-line"></i> Phone No.</label>
+                </div>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email"><i class="ri-mail-fill"></i> Email id</label>
+            </div>
+
+            <div class="input-group">
+                <textarea id="message" required></textarea>
+                <label for="name"><i class="ri-chat-1-fill"></i> Your message</label>
+            </div>
+            <button type="Submit">SUBMIT <i class="ri-send-plane-fill"></i></button>
+        </form>
+    </div>
+</body>
+</html>
